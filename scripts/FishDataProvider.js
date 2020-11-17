@@ -39,8 +39,8 @@ const fishCollection = [
     diet: "FISH",
     image: "lionfish.jpg"
   }
-]
+];
 
 export const useFish = () => {
   return fishCollection.slice();
-}
+};

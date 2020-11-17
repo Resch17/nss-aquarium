@@ -12,5 +12,5 @@ export const Fish = (fish) => {
       <div class="fish__diet"><span class="fish-key">Name:</span> ${fish.diet}</div>
     </div>
   </section>
-  `
-}
+  `;
+};
