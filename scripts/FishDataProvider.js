@@ -3,7 +3,7 @@ const fishCollection = [
     species: "Goldfish",
     name: "Tom",
     length: 3,
-    location: "Neighbor's backyard pond",
+    location: "Neighbor's backyard",
     diet: "Cheetos",
     image: "goldfish.jpg"
   },
