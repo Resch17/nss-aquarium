@@ -9,5 +9,5 @@ export const FishList = () => {
   for (const fishObject of allTheFish) {
     const fishHTML = Fish(fishObject);
     contentElement.innerHTML += fishHTML;
-  }    
+  };
 }
