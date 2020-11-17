@@ -1,1 +1,6 @@
-console.log("Welcome to Martin's Aquarium")
+import { FishList } from "./fishList.js";
+
+FishList();
+
+
+

@@ -5,9 +5,7 @@ const fishCollection = [
     length: 3,
     location: "Neighbor's backyard pond",
     diet: "Cheetos",
-    image: {
-      url: "./images/goldfish.jpg"
-    }
+    image: "goldfish.jpg"
   },
   {
     species: "Blue Tang",
@@ -15,9 +13,7 @@ const fishCollection = [
     length: 5,
     location: "Staten Island, NY",
     diet: "Whack MCs",
-    image: {
-      url: "./images/blueTang.jpg"
-    }
+    image: "blueTang.jpg"
   },
   {
     species: "Clownfish",
@@ -25,9 +21,7 @@ const fishCollection = [
     length: 4,
     location: "Great Barrier Reef",
     diet: "Fish food? idk",
-    image: {
-      url: "./images/clownfish.jpg"
-    }
+    image: "clownfish.jpg"
   },
   {
     species: "Chinese Algae Eater",
@@ -35,9 +29,7 @@ const fishCollection = [
     length: 10,
     location: "Yangtze River",
     diet: "Algae",
-    image: {
-      url: "./images/algae.jpg"
-    }
+    image: "algae.jpg"
   },
   {
     species: "Lionfish",
@@ -45,8 +37,10 @@ const fishCollection = [
     length: 16,
     location: "Perth, Australia",
     diet: "FISH",
-    image: {
-      url: "./images/lionfish.jpg"
-    }
+    image: "lionfish.jpg"
   }
 ]
+
+export const useFish = () => {
+  return fishCollection.slice();
+}
