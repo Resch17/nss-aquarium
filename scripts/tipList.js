@@ -1,5 +1,5 @@
-import {useTip} from "./TipDataProvider.js";
-import {Tip} from "./tip.js";
+import { useTip } from "./TipDataProvider.js";
+import { Tip } from "./tip.js";
 
 export const TipList = () => {
   const contentElement = document.querySelector(".tank-care");
@@ -9,4 +9,4 @@ export const TipList = () => {
     const tipHTML = Tip(tip);
     contentElement.innerHTML += tipHTML;
   }
-}
+};
