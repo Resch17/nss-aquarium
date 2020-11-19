@@ -34,7 +34,7 @@ const fishCollection = [
   {
     species: "Lionfish",
     name: "Aslan",
-    length: 16,
+    length: 15,
     location: "Perth, Australia",
     diet: "FISH",
     image: "lionfish.jpg",
@@ -63,7 +63,7 @@ export const soldierFish = () => {
   const soldiers = [];
 
   for (const fish of fishCollection) {
-    if (fish.length % 5 === 0) {
+    if (fish.length % 5 === 0 && fish.length % 3!== 0) {
       soldiers.push(fish);
     }
   }
