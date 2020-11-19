@@ -1,6 +1,5 @@
-import {useFish} from "./fishDataProvider.js";
-import {Fish} from "./fish.js";
-
+import { useFish } from "./fishDataProvider.js";
+import { Fish } from "./fish.js";
 
 export const FishList = () => {
   const contentElement = document.querySelector(".fish-list");
@@ -9,5 +8,5 @@ export const FishList = () => {
   for (const fishObject of allTheFish) {
     const fishHTML = Fish(fishObject);
     contentElement.innerHTML += fishHTML;
-  };
-}
+  }
+};

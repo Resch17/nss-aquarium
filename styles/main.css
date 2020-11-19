@@ -1,7 +1,7 @@
 :root {
-  --body-text: 'Montserrat', sans-serif;
-  --header-text: 'Bebas Neue', serif;
-  --logo-text: 'Lobster', cursive;
+  --body-text: "Montserrat", sans-serif;
+  --header-text: "Bebas Neue", serif;
+  --logo-text: "Lobster", cursive;
 }
 
 * {
@@ -17,7 +17,9 @@ body {
   font-family: var(--body-text);
 }
 
-h2,h3,h4 {
+h2,
+h3,
+h4 {
   font-family: var(--header-text);
   font-size: 200%;
 }
@@ -53,7 +55,7 @@ h2,h3,h4 {
 }
 
 .content article {
-  margin-bottom: 1em;  
+  margin-bottom: 1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -81,7 +83,7 @@ h2,h3,h4 {
 
 article.quotes {
   justify-content: space-between;
-  margin-left: 1em;  
+  margin-left: 1em;
 }
 
 .quote {
