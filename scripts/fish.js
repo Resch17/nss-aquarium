@@ -9,7 +9,7 @@ export const Fish = (fish) => {
       <div class="fish__species"><span class="fish-key">Species:</span> ${fish.species}</div>
       <div class="fish__length"><span class="fish-key">Length:</span> ${fish.length}"</div>
       <div class="fish__location"><span class="fish-key">Location:</span> ${fish.location}</div>
-      <div class="fish__diet"><span class="fish-key">Name:</span> ${fish.diet}</div>
+      <div class="fish__diet"><span class="fish-key">Diet:</span> ${fish.diet}</div>
     </div>
   </section>
   `;
